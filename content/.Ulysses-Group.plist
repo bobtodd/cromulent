@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>resolutionData</key>
+	<dict>
+		<key>sheetClusters</key>
+		<dict>
+			<key>First Post.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>482339618.41329598</real>
+				<key>version</key>
+				<dict>
+					<key>848109828e9022e9cc041ea39939c98ebae3178e78b1bdeb505c23476a2c6bc2</key>
+					<integer>12</integer>
+				</dict>
+			</dict>
+			<key>Wash Your Hands Better... or Don't!.md</key>
+			<dict>
+				<key>explicitUnassignment</key>
+				<true/>
+				<key>firstUnassignment</key>
+				<real>482339569.21391797</real>
+				<key>lastModification</key>
+				<real>482339569.21391797</real>
+				<key>version</key>
+				<dict>
+					<key>848109828e9022e9cc041ea39939c98ebae3178e78b1bdeb505c23476a2c6bc2</key>
+					<integer>7</integer>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>Wash Your Hands Better... or Don't!.md</string>
+		</array>
+		<array>
+			<string>First Post.md</string>
+		</array>
+	</array>
+	<key>storeFormatVersion</key>
+	<integer>1</integer>
+	<key>versioning</key>
+	<dict>
+		<key>sheetClusters</key>
+		<dict>
+			<key>848109828e9022e9cc041ea39939c98ebae3178e78b1bdeb505c23476a2c6bc2</key>
+			<integer>13</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>
