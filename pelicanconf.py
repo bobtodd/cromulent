@@ -33,3 +33,17 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# My personal configuration options
+
+# cf. Notions and Notes
+#   http://www.notionsandnotes.org/tech/web-development/pelican-static-blog-setup.html
+# PLUGIN_PATHS = ['./plugins']
+# PLUGINS = ['extract_toc','render_math','disqus_static','better_figures_and_images']
+# MD_EXTENSIONS = ['codehilite','extra','smarty', 'toc']
+
+THEME = 'themes/built-texts'
+
+COLOPHON = True
+COLOPHON_TITLE = 'About'
+COLOPHON_CONTENT = "Mainly...."
