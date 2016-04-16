@@ -2,11 +2,6 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-# From Tips-n-Tricks here:
-#  https://github.com/getpelican/pelican/wiki/Tips-n-Tricks
-from markdown.extensions.codehilite import CodeHiliteExtension
-from markdown.extensions.toc import TocExtension
-
 AUTHOR = 'BobTodd'
 SITENAME = 'Perfectly Cromulent'
 SITEURL = ''
@@ -25,19 +20,20 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('LRC', 'http://www.utexas.edu/cola/centers/lrc/'),
+		)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('GitHub', 'https://github.com/bobtodd'),
+          ('Twitter', 'https://twitter.com/toddbkrause'),
+          )
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+
 
 # My personal configuration options
 
@@ -49,14 +45,34 @@ PLUGINS = ['extract_toc','render_math','disqus_static','better_figures_and_image
 
 # From Tips-n-Tricks here:
 #  https://github.com/getpelican/pelican/wiki/Tips-n-Tricks
+from markdown.extensions.codehilite import CodeHiliteExtension
+from markdown.extensions.toc import TocExtension
 MD_EXTENSIONS = [
     CodeHiliteExtension(css_class='highlight'),
     TocExtension(permalink=True),
     'markdown.extensions.extra',
 ]
 
-THEME = 'themes/built-texts'
+# cf. Notions and Notes GitHub repository
+#   https://github.com/notionsandnotes/notionsandnotes.org/blob/master/pelican/pelicanconf.py
+TYPOGRIFY = True
+
+# THEME = 'themes/built-texts'
+# THEME = 'themes/pelican-bootstrap3'
+
+# The 'elegant' theme automatically includes the Table of Contents
+# in the sidebar.  For other themes, you need to add
+# {% if article.toc %}
+#     <nav class="toc">
+#     {{ article.toc }}
+#     </nav>
+# {% endif %}
+# as mentioned here
+#   https://github.com/getpelican/pelican-plugins/tree/master/extract_toc
+THEME = 'themes/elegant'
 
 COLOPHON = True
 COLOPHON_TITLE = 'About'
 COLOPHON_CONTENT = "Mainly...."
+
+DISQUS_SITENAME = "perfectly-cromulent.disqus.com"

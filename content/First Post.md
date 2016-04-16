@@ -4,10 +4,6 @@ Category: Test
 
 [TOC]
 
-** Table of Contents**
-
-[TOC]
-
 # A Big Section
 
 Hello, Blogosphere!
