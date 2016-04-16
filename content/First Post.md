@@ -27,3 +27,10 @@ Moving out one indent.
 # Another Big Section
 
 This one just to see how things get handled.
+
+# A Section with Equations
+
+What if we try to write an equation in $\LaTeX$, like this...
+$$
+\int_0^1 x e^x dx = 1.
+$$
