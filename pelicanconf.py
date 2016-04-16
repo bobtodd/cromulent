@@ -38,9 +38,9 @@ DEFAULT_PAGINATION = 10
 
 # cf. Notions and Notes
 #   http://www.notionsandnotes.org/tech/web-development/pelican-static-blog-setup.html
-# PLUGIN_PATHS = ['./plugins']
-# PLUGINS = ['extract_toc','render_math','disqus_static','better_figures_and_images']
-# MD_EXTENSIONS = ['codehilite','extra','smarty', 'toc']
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['extract_toc','render_math','disqus_static','better_figures_and_images']
+MD_EXTENSIONS = ['codehilite','extra','smarty', 'toc']
 
 THEME = 'themes/built-texts'
 
