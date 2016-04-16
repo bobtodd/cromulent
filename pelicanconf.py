@@ -2,6 +2,11 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+# From Tips-n-Tricks here:
+#  https://github.com/getpelican/pelican/wiki/Tips-n-Tricks
+from markdown.extensions.codehilite import CodeHiliteExtension
+from markdown.extensions.toc import TocExtension
+
 AUTHOR = 'BobTodd'
 SITENAME = 'Perfectly Cromulent'
 SITEURL = ''
@@ -40,7 +45,15 @@ DEFAULT_PAGINATION = 10
 #   http://www.notionsandnotes.org/tech/web-development/pelican-static-blog-setup.html
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['extract_toc','render_math','disqus_static','better_figures_and_images']
-MD_EXTENSIONS = ['codehilite','extra','smarty', 'toc']
+# MD_EXTENSIONS = ['codehilite','extra','smarty', 'toc']
+
+# From Tips-n-Tricks here:
+#  https://github.com/getpelican/pelican/wiki/Tips-n-Tricks
+MD_EXTENSIONS = [
+    CodeHiliteExtension(css_class='highlight'),
+    TocExtension(permalink=True),
+    'markdown.extensions.extra',
+]
 
 THEME = 'themes/built-texts'
 
