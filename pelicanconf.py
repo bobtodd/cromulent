@@ -4,7 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = 'BobTodd'
 SITENAME = 'Perfectly Cromulent'
-SITEURL = ''
+# SITEURL = ''
+SITEURL = 'localhost:8000'
 
 PATH = 'content'
 
@@ -75,4 +76,5 @@ COLOPHON = True
 COLOPHON_TITLE = 'About'
 COLOPHON_CONTENT = "Mainly...."
 
-DISQUS_SITENAME = "perfectly-cromulent.disqus.com"
+# DISQUS_SITENAME = "perfectly-cromulent.disqus.com"
+DISQUS_SITENAME = "perfectly-cromulent"

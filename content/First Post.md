@@ -30,3 +30,13 @@ What if we try to write an equation in $\LaTeX$, like this...
 $$
 \int_0^1 x e^x dx = 1.
 $$
+
+# A Section for Coding
+
+Let's try a little code example.
+
+```python
+for _member in family:
+	number_i_love += 1
+	print("{} is part of my family".format(_member))
+```
