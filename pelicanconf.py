@@ -12,7 +12,7 @@ from __future__ import unicode_literals
 # [Inspiring Title]
 # Unlearning
 # Voltearepas
-# Hypotheses non Fingo
+# Hypotheses non Fingo (already taken)
 #   from Newton
 # Linear Independence
 #   from vector spaces
@@ -26,7 +26,7 @@ from __future__ import unicode_literals
 #   from Jaynes
 # Contact Bundle
 #   from Burke
-# Dot vs. Apostrophe
+# Dot vs. Apostrophe <-
 #   from Burke
 # Action at a Distance
 #   from Baldomir
