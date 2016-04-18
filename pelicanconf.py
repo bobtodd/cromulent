@@ -2,6 +2,43 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+# Possible blog names
+#
+# Data In, Patterns Out
+#   = DIPO = Pali word for "lantern, light"
+# Hypothesis v. Data
+# Not Much to Look At
+#   = No Mu-LA = No Moola(h)
+# [Inspiring Title]
+# Unlearning
+# Voltearepas
+# Hypotheses non Fingo
+#   from Newton
+# Linear Independence
+#   from vector spaces
+# Arity
+#   from Logic
+# Ad Hoc Devices
+#   from Jaynes
+# Weak Syllogism
+#   from Jaynes
+# Consistency Trumps Coherence
+#   from Jaynes
+# Contact Bundle
+#   from Burke
+# Dot vs. Apostrophe
+#   from Burke
+# Action at a Distance
+#   from Baldomir
+# Intermediate Value
+#   from Tensor Geometry
+# Utility & Limits
+#   from Tensor Geometry
+# Formal Construction
+#   from Tensor Geometry
+# Local Straightening
+#   from Tensor Geometry
+
 AUTHOR = 'BobTodd'
 SITENAME = 'Perfectly Cromulent'
 SITEURL = ''
