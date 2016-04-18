@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = 'BobTodd'
 SITENAME = 'Perfectly Cromulent'
-# SITEURL = ''
-SITEURL = 'localhost:8000'
+SITEURL = ''
+# SITEURL = 'localhost:8000'
 
 PATH = 'content'
 
@@ -57,9 +57,6 @@ MD_EXTENSIONS = [
 # cf. Notions and Notes GitHub repository
 #   https://github.com/notionsandnotes/notionsandnotes.org/blob/master/pelican/pelicanconf.py
 TYPOGRIFY = True
-
-# THEME = 'themes/built-texts'
-# THEME = 'themes/pelican-bootstrap3'
 
 # The 'elegant' theme automatically includes the Table of Contents
 # in the sidebar.  For other themes, you need to add
