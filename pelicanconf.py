@@ -26,7 +26,7 @@ from __future__ import unicode_literals
 #   from Jaynes
 # Contact Bundle
 #   from Burke
-# Dot vs. Apostrophe <-
+# Dot v. Apostrophe <-
 #   from Burke
 # Action at a Distance
 #   from Baldomir
