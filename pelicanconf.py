@@ -41,8 +41,8 @@ from __future__ import unicode_literals
 
 AUTHOR = 'BobTodd'
 SITENAME = 'Perfectly Cromulent'
-SITEURL = ''
-# SITEURL = 'localhost:8000'
+#SITEURL = 'https://bobtodd.github.io'
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
@@ -105,6 +105,7 @@ TYPOGRIFY = True
 # as mentioned here
 #   https://github.com/getpelican/pelican-plugins/tree/master/extract_toc
 THEME = 'themes/elegant'
+#THEME = 'themes/pelican-bootstrap3'
 
 COLOPHON = True
 COLOPHON_TITLE = 'About'
